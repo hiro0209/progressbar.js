@@ -70,5 +70,9 @@
     "loader",
     "semi-circle",
     "indicator"
-  ]
+  ],
+  "volta": {
+    "node": "20.12.1",
+    "pnpm": "8.15.6"
+  }
 }
