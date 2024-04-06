@@ -3,8 +3,6 @@
 var shifty = require('shifty');
 var utils = require('./utils');
 
-var self;
-
 var Tweenable = shifty.Tweenable;
 
 var EASING_ALIASES = {
