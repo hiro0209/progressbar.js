@@ -3,6 +3,8 @@
 var shifty = require('shifty');
 var utils = require('./utils');
 
+var self;
+
 var Tweenable = shifty.Tweenable;
 
 var EASING_ALIASES = {
@@ -102,7 +104,7 @@ Path.prototype.animate = function animate(progress, opts, cb) {
     var offset = this._getComputedDashOffset();
     var newOffset = this._progressToOffset(progress);
 
-    var self = this;
+    self = this;
     this._tweenable = new Tweenable();
     this._tweenable.tween({
         from: utils.extend({ offset: offset }, values.from),

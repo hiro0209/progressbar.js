@@ -22,11 +22,12 @@ Documentation is [hosted at readthedocs.org](http://progressbarjs.readthedocs.or
 * [react-progressbar.js](https://github.com/kimmobrunfeldt/react-progressbar.js) progress bars in React.
 
 
-# Contributing
+# Features
 
-See [documentation for contributors](http://progressbarjs.readthedocs.org/en/latest/contributing/).
+- Change to latest typescript implementation.
+- Development of nuxt module.
 
 
 # Thanks
 
-This project is a grateful recipient of the [Futurice Open Source sponsorship program](http://futurice.com/blog/sponsoring-free-time-open-source-activities?utm_source=github&utm_medium=spice&utm_campaign=progressbar).
+This project is forked from [kimmobrunfeldt/progressbar.js](https://github.com/kimmobrunfeldt/progressbar.js)
